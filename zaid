@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaid Jawad - Curriculum Vitae</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        header p {
+            font-size: 18px;
+            color: #555;
+        }
+        .section-title {
+            font-size: 24px;
+            color: hsl(0, 33%, 4%);
+            margin-top: 20px;
+            text-decoration: underline;
+        }
+
+
+        .zaid{
+            color: black;
+            font-size: 50px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-decoration:underline;
+        }
+
+
+
+
+
+
+        .experience, .education, .skills, .contact {
+            margin-top: 20px;
+        }
+        .experience ul, .education ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .experience li, .education li {
+            margin-bottom: 10px;
+        }
+        .contact-info {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <header>
+        <h1>Zaid Jawad</h1>
+        <p>Beginner Web Developer | Problem Solver | Quick Learner</p>
+    </header>
+
+    <section class="experience">
+        <div class="zaid">Work Experience</div>
+        <ul>
+            <li><strong>Intern Web Developer</strong> at XYZ Solutions (Jun 2023 - Present)</li>
+            <li><strong>Freelance Web Development</strong> (Jan 2023 - May 2023)</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <div class="section-title">Education</div>
+        <ul>
+            <li><strong>BS in Computer Science</strong> from ABC University (2020 - Present)</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <div class="section-title">Skills</div>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React Basics</li>
+            <li>PHP & MySQL (Beginner)</li>
+            <li>Problem Solving & Debugging</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <div class="section-title">Contact Information</div>
+        <div class="contact-info">
+            <p>Email: zaidjawad@email.com</p>
+            <p>Phone: +123 456 7890</p>
+            <p>LinkedIn: linkedin.com/in/zaidjawad</p>
+        </div>
+    </section>
+</div>
+
+</body>
+</html>
